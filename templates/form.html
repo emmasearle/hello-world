@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Unsubscribe from newsletter</title>
+		<link rel="stylesheet" href="style.css"></style>
+	</head>
+
+	<body>
+
+
+		<div id="wrapper">
+		
+			<div id="header">
+				<img src="CND-Logo-New.svg" alt="conde Nast"> 
+			</div><!-- #header -->
+	
+			<div id="content">	
+
+					<h3>Why are you unsubscribing? </h3>
+		
+					<br>
+			 	<form name="menuform">
+
+					<!--<label for="C1">Too many News letters</LABEL>
+						<input type="Checkbox" Name="Browser" ID="C1" Value="Too many News letters">
+				
+					<label for="C2"> No longer interested in Newsletter content</LABEL>
+					<input type="Checkbox" Name="Browser" ID="C2" Value="No longer interested in Newsletter content">-->
+					
+					<select name="menu1">
+						<option value="/index.html" selected>Too many News letters</option>
+						<option value="/index.html">No longer interested in Newsletter content</option>
+						<option value="/index.html">Other</option>
+					</select>
+						<input type="button" name="Submit" value="Unsubscribe" onClick="top.location.href = this.form.menu1.options[this.form.menu1.selectedIndex].value;return false;">
+
+				</form>
+
+		
+			</div><!-- #content -->
+	
+			<div id="footer">
+				<ul>
+				    <li><a href="http://www.condenast.co.uk/privacy/?_ga=1.135630648.806916094.1436178910">Privacy Policy &amp; Cookie Statement</a></li>
+				    <li><a href="http://www.condenast.co.uk/terms/?_ga=1.146507965.806916094.1436178910">Terms &amp; Conditions</a></li>
+				    <li><a href="http://www.vogue.co.uk/_staticContent/contact-us.htm">Contact Us</a></li>
+				</ul>
+			</div><!-- #footer -->
+
+		</div><!-- #wrapper -->
+	</body>
+</html>
